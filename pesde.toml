@@ -1,5 +1,5 @@
 name = "rvy/spin"
-version = "0.0.4"
+version = "0.0.5"
 authors = ["rvy"]
 license = "MIT"
 description = "Terminal spinners with dynamic text updates and CI support."

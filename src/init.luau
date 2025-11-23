@@ -122,6 +122,9 @@ function spin.start(renderer: Renderer | spinner, initialText: string?, ci: bool
 				-- Advance to next frame
 				frameIndex = frameIndex % #animation.frames + 1
 			end
+			if not inCI then
+				write(CLEAR_LINE)
+			end
 		end)
 	end
 
