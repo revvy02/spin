@@ -1,0 +1,9 @@
+**/luau_packages/
+**/lune_packages/
+
+.DS_Store
+.pesde
+.env
+.claude
+.vscode
+.temp
