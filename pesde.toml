@@ -1,5 +1,9 @@
 name = "rvy/spin"
 version = "0.0.1"
+authors = ["rvy"]
+license = "MIT"
+description = "Terminal spinners with dynamic text updates and CI support."
+repository = "https://github.com/revvy02/spin"
 
 [engines]
 lune = "^0.10.4"
