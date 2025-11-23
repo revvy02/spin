@@ -142,7 +142,7 @@ function spin.wrap<R...>(renderer: Renderer | spinner, callback: (setText: (text
 		error(result)
 	end
 
-	return unpack(result)
+	return table.unpack(result) :: any
 end
 
 return spin
